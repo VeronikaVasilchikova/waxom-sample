@@ -1,0 +1,460 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+header{
+	width: 100%;
+	min-height: 1025px;
+	margin: 0 auto;
+	background-image: url("../pictures/Mountain.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:0 0 0 600px rgba(0, 0, 0, 0.33) inset;
+	color: #fff;
+	position: relative;
+}
+header .col-sm-3 {
+	text-align: center;
+	font-size: 20px;
+}
+header .col-sm-3:hover {
+	cursor: pointer;
+	color: #c7b299;
+}
+header .row.menu{
+	padding-top: 40px;
+}
+header .row.menu a{
+	font-size: 20px;
+	text-decoration: none;
+	color: #fff;
+}
+header .row.menu a:hover{
+	color: #c7b299;
+}
+header .row.menu .col.icon{
+	padding-right: 0;
+	padding-left: 0;
+}
+header .row.main{
+	padding-top: 300px;
+	text-align: center;
+}
+header .row.main p {
+	margin-bottom: 3rem;
+}
+header .row.main button {
+	width: 170px;
+	height: 50px;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 15px 25px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #998675;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 5px #736357;
+}
+header .row.main button:hover {
+	background-color: #c7b299;
+}
+
+.services{
+	width: 100%;
+	min-height: 350px;
+	margin: 0 auto;
+	background-color: #fff;
+	padding-top: 80px;
+}
+.services .row{
+	text-align: center;
+}
+.services .row i{
+	font-size: 18px;
+	line-height: 2em;
+}
+.services .row a {
+    display: inline-block;
+    position: relative;
+    text-decoration: none;
+    color: black;
+}
+.services .row a:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 100px;
+    border-bottom: 3px solid black;
+    transition: width 0.3s ease-in-out;
+    left: 30%;
+    bottom: 0;
+}
+.services .row a:hover{
+    color: #c7b299;
+}
+.services .row a:hover:after{
+    border-bottom: 3px solid #c7b299;
+}
+
+.Waxom{
+	width: 100%;
+	min-height: 600px;
+	margin: 0 auto;
+	background-color: #fbfaf8;
+	padding-top: 1rem;
+	position: relative;
+}
+.Waxom .row.text{
+	text-align: center;
+}
+.Waxom .row.center{
+	position: absolute;
+	bottom: 0;
+	left: 30%;
+	z-index: 1;
+}
+.Waxom .row.left{
+	position: absolute;
+	bottom: 0;
+	left: 18%;
+	z-index: 0;
+}
+.Waxom .row.right{
+	position: absolute;
+	bottom: 0;
+	right: 18%;
+	z-index: 0;
+}
+
+
+.black-part1{
+	width: 100%;
+	min-height: 100px;
+	margin: 0 auto;
+	background: #251d1b;
+	-webkit-background: linear-gradient (to right, #251d1b, #4d3327);
+	padding-top: 1rem;
+	color: #fff;
+	text-align: center;
+}
+.black-part1 span{
+	color: #c7b299;
+}
+.black-part1 button {
+	width: 170px;
+	height: 50px;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #998675;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 5px #736357;
+}
+.black-part1 button:hover {
+	background-color: #c7b299;
+}
+
+.links{
+	width: 700px;
+	margin: 0 auto;
+	padding-bottom: 40px;
+}
+.links ul{
+	list-style: none;
+}
+
+.links ul li{
+	border: 1px solid #ebebeb;
+	background-color: #fff;
+	border-radius: 5px;
+	padding: 10px 20px;
+	float: left;
+	margin-right: 10px;
+}
+.links ul li a{
+	text-decoration: none;
+	color: #8c8c8c;
+	text-align: center;
+}
+.links ul li:hover{
+	background-color: #998675;
+	color: #fff;
+}
+.links ul li a:hover{
+	color: #fff;
+}
+
+.projects{
+	width: 100%;
+	min-height: 1000px;
+	margin: 0 auto;
+	padding-top: 1rem;
+	padding-bottom: 1rem;
+}
+.projects .text{
+	text-align: center;
+}
+.projects .project1,
+.projects .project2,
+.projects .project3,
+.projects .project4,
+.projects .project5,
+.projects .project5{
+	height: 340px;
+}
+.projects a{
+	text-align: center;
+	text-decoration: none;
+	color: black;
+}
+.projects a:hover{
+	opacity: 0.5;
+}
+.projects .bottom_text:hover{
+	background-color: #998675;
+}
+.projects .bottom_text:hover:before{
+	border-bottom: 20px solid #998675;
+}
+.projects .bottom_text{
+	width: 360px;
+	height: 60px;
+	background-color: #fbfaf8;
+	position: relative;
+}
+.projects .bottom_text:before{
+	content: '';
+	border: 20px solid transparent;
+	border-bottom: 20px solid #fbfaf8;
+	position: absolute;
+	top: -35px;
+	left: 10%;
+}
+.projects .col-sm-4 {
+	max-width: 30%;
+	margin-left: 2.5rem;
+}
+.projects button {
+	margin-top: 40px;
+	width: 170px;
+	height: 50px;
+	display: inline-block;
+	text-transform: uppercase;
+	padding: 15px 25px;
+	cursor: pointer;
+	text-align: center;
+	text-decoration: none;
+	outline: none;
+	color: #fff;
+	background-color: #998675;
+	border: none;
+	border-radius: 5px;
+	box-shadow: 0 5px #736357;
+}
+.projects button:hover {
+	background-color: #c7b299;
+}
+.projects .text ~ .row {
+	margin-bottom: 2rem;
+}
+
+
+.hand {
+	width: 100%;
+	min-height: 630px;
+	background: #fbfaf8;
+	margin: 0 auto;
+	padding-top: 1rem;
+	padding-left: 3rem;
+}
+.hand h3{
+	line-height: 2em;
+}
+
+.hand ul{
+	list-style: none;
+}
+.hand ul li{
+	line-height: 2em;
+}
+
+.hand ul li:before{
+	content: '>';
+	display: inline-block;
+	background: #c8b39b;
+	border-radius: 50%;
+	width: 20px;
+	height: 20px;
+	color: #fff;
+	margin-right: 5px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100%;
+}
+
+
+.black-part2{
+	width: 100%;
+	min-height: 300px;
+	margin: 0 auto;
+	background-color: #111111;
+	padding-top: 80px;
+	color: #fff;
+	text-align: center;
+}
+.black-part2 i{
+	font-size: 40px;
+	padding-bottom: 10px;
+}
+.black-part2 p{
+	position: relative;
+	padding-bottom: 1rem;
+}
+
+.black-part2 p:after {
+    display: block;
+    position: absolute;
+    content: "";
+    width: 70px;
+    border-bottom: 2px solid #fff;
+    left: 33%;
+    bottom: 0;
+}
+
+.posts{
+	width: 100%;
+	min-height: 680px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+.posts .text{
+	text-align: center;
+}
+.posts .text h3{
+	line-height: 2em;
+}
+.posts .text p{
+	line-height: 1.5em;
+	padding-bottom: 15px;
+}
+.posts .row{
+	padding: 10px;
+}
+.posts .row h5,
+.posts .row p,
+.posts .row a{
+	padding-left: 15px;
+}
+.posts .row a{
+	color: #c8b39b;
+}
+.posts .row a:after{
+	content: '';
+	display: inline-block;
+	border: 10px solid transparent;
+	border-left: 8px solid #402403;;
+	margin-left: 8px;
+	vertical-align: middle;
+	text-align: center;
+	line-height: 100%;
+}
+.posts .row .col-sm-4{
+	max-width: 30%;
+	position: relative;
+	margin-left: 2.5rem;
+}
+.posts .row .col-sm-4:before{
+	content: '30';
+	font-weight: 500;
+	font-size: 35px;
+	display: block;
+	position: absolute;
+	left: 30px;
+	top: 10px;
+	width: 50px;
+	height: 50px;
+	text-align: center;
+	background-color: black;
+	border-radius: 5px;
+	color: #fff;
+}
+.posts .row .col-sm-4:after{
+	content: 'Sep.';
+	font-weight: 500;
+	font-size: 25px;
+	display: block;
+	position: absolute;
+	left: 30px;
+	top: 55px;
+	width: 50px;
+	height: 40px;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	text-align: center;
+	background-color: gray;
+	color: #fff;
+}
+.posts .row .col-sm-4 .text2{
+	width: 360px;
+	height: 200px;
+	background-color: #fbfaf8;
+	position: relative;
+}
+
+.preprefooter{
+	width: 100%;
+	min-height: 490px;
+	margin: 0 auto;
+	background-image: url("../pictures/Mountain2.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	box-shadow:0 0 0 300px rgba(0, 0, 0, 0.33) inset;
+	padding-top: 140px;
+	text-align: center;
+}
+.prefooter{
+	width: 100%;
+	min-height: 320px;
+	margin: 0 auto;
+	background: #111111;
+	padding-top: 1rem;
+	color: #fff;
+	padding-left: 1rem;
+}
+.prefooter .dribble .col-sm-6{
+	padding: .75rem;
+}
+.prefooter .row {
+    margin-right: 0;
+    margin-left: 0;
+}
+
+footer {
+	width: 100%;
+	min-height: 110px;
+	margin: 0 auto;
+	background-color: #111111;
+	box-shadow:0 0 0 300px rgba(0, 0, 0, 0.33) inset;
+	padding-top: 40px;
+	color: #fff;
+}
+footer .col-sm-5 {
+	text-align: center;
+}
+
